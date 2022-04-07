@@ -1,1 +1,0 @@
-# SuprSend-iOS-SDK
