@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
              name: "SuprSendSdk",
              url: "https://github.com/suprsend/SuprSend-iOS-XCFramework/releases/download/1.0.0/SuprSendSdk.xcframework.zip",
-             checksum: "81caec4ec072fe6b80c09de0bcc9d7b7a512ccb06f85191561ad4bc5c41c5ee1"
+             checksum: "d718a8a5e992a55892b2ac617d391c89d8938d03448d6567f57c607001956881"
            ),
     ]
 )
