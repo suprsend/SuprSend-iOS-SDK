@@ -1,0 +1,6 @@
+framework module SuprsendCore {
+    umbrella header "SuprsendCore.h"
+
+    export *
+    module * { export * }
+}
