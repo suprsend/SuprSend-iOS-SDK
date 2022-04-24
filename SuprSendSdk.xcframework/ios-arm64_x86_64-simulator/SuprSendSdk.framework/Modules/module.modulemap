@@ -1,0 +1,11 @@
+framework module SuprSendSdk {
+  umbrella header "SuprSendSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module SuprSendSdk.Swift {
+    header "SuprSendSdk-Swift.h"
+    requires objc
+}

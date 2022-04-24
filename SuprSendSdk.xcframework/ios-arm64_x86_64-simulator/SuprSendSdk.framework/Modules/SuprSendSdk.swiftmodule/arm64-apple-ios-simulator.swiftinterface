@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SuprSendSdk
+import Foundation
+import NotificationCenter
+@_exported import SuprSendSdk
+import SuprsendCore
+import Swift
+import UIKit
+import _Concurrency
+@objc extension SuprSendSdk.SuprSend {
+  @objc dynamic public func identify(identity: Swift.String)
+  @objc dynamic public func track(eventName: Swift.String)
+  @objc dynamic public func track(eventName: Swift.String, properties: [Swift.String : Any])
+  @objc dynamic public func set(key: Swift.String, value: Swift.String)
+  @objc dynamic public func set(properties: [Swift.String : Any])
+  @objc dynamic public func increment(key: Swift.String, value: Any)
+  @objc dynamic public func increment(properties: [Swift.String : Any])
+  @objc dynamic public func append(key: Swift.String, value: Swift.String)
+  @objc dynamic public func remove(key: Swift.String, value: Swift.String)
+  @objc dynamic public func unSet(key: Swift.String)
+  @objc dynamic public func purchaseMade(properties: [Swift.String : Any])
+  @objc dynamic public func setOnce(properties: [Swift.String : Any])
+  @objc dynamic public func setOnce(key: Swift.String, value: Any)
+  @objc dynamic public func setSuperProperty(key: Swift.String, value: Any)
+  @objc dynamic public func setSuperProperties(properties: [Swift.String : Any])
+  @objc dynamic public func unSetSuperProperty(key: Swift.String)
+  @objc dynamic public func reset()
+  @objc dynamic public func setEmail(emailId: Swift.String)
+  @objc dynamic public func flush()
+}
+@_inheritsConvenienceInitializers @objc public class SuprSend : ObjectiveC.NSObject {
+  @objc public static var shared: SuprSendSdk.SuprSend
+  @objc public func configureWith(configuration: SuprSendSdk.SuprSendSDKConfiguration, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @objc public func enableLogging()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension SuprSendSdk.SuprSend {
+  @objc dynamic public func setPushNotificationToken(token: Swift.String)
+  @objc dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse)
+  @objc dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification)
+  @objc dynamic public func registerForPushNotifications()
+  @objc dynamic public func trackNotificationDidLaunchAppEvent(id: Swift.String)
+}
+@_hasMissingDesignatedInitializers @objc public class SuprSendSDKConfiguration : ObjectiveC.NSObject {
+  @objc public convenience init(withKey key: Swift.String, secret: Swift.String, baseUrl: Swift.String? = nil)
+  @objc deinit
+}
+@objc extension UserNotifications.UNNotificationResponse {
+  @objc dynamic public func isSuprSendNotification() -> Swift.Bool
+}
+@objc extension UserNotifications.UNNotification {
+  @objc dynamic public func isSuperSendNotification() -> Swift.Bool
+}
