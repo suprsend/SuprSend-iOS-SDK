@@ -9,5 +9,4 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.source       = { :git => "https://github.com/suprsend/SuprSend-iOS-SDK.git", :tag =>  "1.0.0" }
   spec.vendored_frameworks = "SuprSendSdk.xcframework"
-
 end

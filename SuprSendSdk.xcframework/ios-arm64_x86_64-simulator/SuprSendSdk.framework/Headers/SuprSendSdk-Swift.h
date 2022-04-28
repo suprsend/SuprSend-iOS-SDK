@@ -229,12 +229,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)setPushNotificationTokenWithToken:(NSString * _Nonnull)token;
+- (void)unSetPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification;
 - (void)registerForPushNotifications;
 - (void)trackNotificationDidLaunchAppEventWithId:(NSString * _Nonnull)id;
 @end
 
+@class NSNumber;
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)identifyWithIdentity:(NSString * _Nonnull)identity;
@@ -242,11 +244,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)trackWithEventName:(NSString * _Nonnull)eventName properties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 - (void)setWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
-- (void)incrementWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
-- (void)incrementWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
-- (void)appendWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
-- (void)removeWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
+- (void)incrementWithKey:(NSString * _Nonnull)key value:(float)value;
+- (void)incrementWithProperties:(NSDictionary<NSString *, NSNumber *> * _Nonnull)properties;
+- (void)appendWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
+- (void)removeWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)unSetWithKey:(NSString * _Nonnull)key;
+- (void)unSetWithKeys:(NSArray<NSString *> * _Nonnull)keys;
 - (void)purchaseMadeWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setOnceWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setOnceWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
@@ -255,6 +258,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)unSetSuperPropertyWithKey:(NSString * _Nonnull)key;
 - (void)reset;
 - (void)setEmailWithEmailId:(NSString * _Nonnull)emailId;
+- (void)unSetEmailWithEmailId:(NSString * _Nonnull)emailId;
+- (void)setSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)unSetSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)setWhatsAppWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)unSetWhatsAppWithMobileNumber:(NSString * _Nonnull)mobileNumber;
 - (void)flush;
 @end
 
@@ -266,7 +274,6 @@ SWIFT_CLASS("_TtC11SuprSendSdk24SuprSendSDKConfiguration")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSNumber;
 
 @interface UNNotification (SWIFT_EXTENSION(SuprSendSdk))
 - (BOOL)isSuperSendNotification SWIFT_WARN_UNUSED_RESULT;
@@ -513,12 +520,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)setPushNotificationTokenWithToken:(NSString * _Nonnull)token;
+- (void)unSetPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification;
 - (void)registerForPushNotifications;
 - (void)trackNotificationDidLaunchAppEventWithId:(NSString * _Nonnull)id;
 @end
 
+@class NSNumber;
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)identifyWithIdentity:(NSString * _Nonnull)identity;
@@ -526,11 +535,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)trackWithEventName:(NSString * _Nonnull)eventName properties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 - (void)setWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
-- (void)incrementWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
-- (void)incrementWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
-- (void)appendWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
-- (void)removeWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
+- (void)incrementWithKey:(NSString * _Nonnull)key value:(float)value;
+- (void)incrementWithProperties:(NSDictionary<NSString *, NSNumber *> * _Nonnull)properties;
+- (void)appendWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
+- (void)removeWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)unSetWithKey:(NSString * _Nonnull)key;
+- (void)unSetWithKeys:(NSArray<NSString *> * _Nonnull)keys;
 - (void)purchaseMadeWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setOnceWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setOnceWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
@@ -539,6 +549,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)unSetSuperPropertyWithKey:(NSString * _Nonnull)key;
 - (void)reset;
 - (void)setEmailWithEmailId:(NSString * _Nonnull)emailId;
+- (void)unSetEmailWithEmailId:(NSString * _Nonnull)emailId;
+- (void)setSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)unSetSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)setWhatsAppWithMobileNumber:(NSString * _Nonnull)mobileNumber;
+- (void)unSetWhatsAppWithMobileNumber:(NSString * _Nonnull)mobileNumber;
 - (void)flush;
 @end
 
@@ -550,7 +565,6 @@ SWIFT_CLASS("_TtC11SuprSendSdk24SuprSendSDKConfiguration")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSNumber;
 
 @interface UNNotification (SWIFT_EXTENSION(SuprSendSdk))
 - (BOOL)isSuperSendNotification SWIFT_WARN_UNUSED_RESULT;

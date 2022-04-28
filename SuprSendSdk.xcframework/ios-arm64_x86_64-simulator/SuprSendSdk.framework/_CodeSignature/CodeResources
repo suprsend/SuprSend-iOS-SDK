@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SuprSendSdk-Swift.h</key>
 		<data>
-		4648K0Gs38aqe8qfxOe6BJIMW5k=
+		U2pgo+xJPgtNpkGihM2+qgkDBPQ=
 		</data>
 		<key>Headers/SuprSendSdk.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VWGwOl2tmehq0SpHMSc/LPluYMw=
+		WXhG+4H9ZtMwjtgj2ct3DE4d8Bk=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xcd4z5FK0l6vrIXFt4hrHKFtwVc=
+		YsN343Z1VOQve7B0DCd7TQEDjnI=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VWGwOl2tmehq0SpHMSc/LPluYMw=
+		WXhG+4H9ZtMwjtgj2ct3DE4d8Bk=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xcd4z5FK0l6vrIXFt4hrHKFtwVc=
+		YsN343Z1VOQve7B0DCd7TQEDjnI=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6IP4kHoHacyarny2Qd8Kflt3kDQ=
+		zX9iYjEyBAmGhlDWTDYSs2XnpZM=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EdQWMRud9KJ/0rqNS2pM5UJ+8DA=
+		6LYyfYcz/hWFDAEFvJMM/feks/w=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		6IP4kHoHacyarny2Qd8Kflt3kDQ=
+		zX9iYjEyBAmGhlDWTDYSs2XnpZM=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		EdQWMRud9KJ/0rqNS2pM5UJ+8DA=
+		6LYyfYcz/hWFDAEFvJMM/feks/w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xVIuioAYlMjki1hwyJD95BN2Lh0eC3Wzq0mQ/j1nKE=
+			+9prFYWaeuduz23lhNJfMVsYUy+IVuhnn1N2aay10Z8=
 			</data>
 		</dict>
 		<key>Headers/SuprSendSdk.h</key>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GJ9QURqJLErWksMRGp3hIBpVq9RvxYtWJGf1g0aiVOU=
+			wWS+FC/8xQ222vIulzMqzlDGcLdQ5tA5zlfVkPEdsK0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3Q8cnXQldFPVBdsFoYMQZ1CekFWjk70g/Ctxdv5Q+U=
+			QzW9dFYilZUdpUqXWCM0K1I+lKvKAAQLubqc8g8L8O0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftdoc</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GJ9QURqJLErWksMRGp3hIBpVq9RvxYtWJGf1g0aiVOU=
+			wWS+FC/8xQ222vIulzMqzlDGcLdQ5tA5zlfVkPEdsK0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3Q8cnXQldFPVBdsFoYMQZ1CekFWjk70g/Ctxdv5Q+U=
+			QzW9dFYilZUdpUqXWCM0K1I+lKvKAAQLubqc8g8L8O0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vF+HxAimXsPd+VukgrFUiJbX4RTcB8ml74YmKZm9Uhs=
+			V3EAokNnDFtUERVrYoac0e5nD2uoFyCgQqIoy49JUh0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDmyiTW/BEzv784drp9l6sH7pB2Ra35DWjD79Z3ZGiM=
+			RQDxCBMOq7ScymhsnJmQBS+pzfpXSu25co+wpc53nKE=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vF+HxAimXsPd+VukgrFUiJbX4RTcB8ml74YmKZm9Uhs=
+			V3EAokNnDFtUERVrYoac0e5nD2uoFyCgQqIoy49JUh0=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDmyiTW/BEzv784drp9l6sH7pB2Ra35DWjD79Z3ZGiM=
+			RQDxCBMOq7ScymhsnJmQBS+pzfpXSu25co+wpc53nKE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
