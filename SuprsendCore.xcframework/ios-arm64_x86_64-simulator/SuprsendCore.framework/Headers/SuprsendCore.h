@@ -246,8 +246,18 @@ __attribute__((swift_name("IOSSSApi.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SuprsendCoreIOSSSApiCompanion *shared __attribute__((swift_name("shared")));
 - (void)enableLogging __attribute__((swift_name("enableLogging()")));
-- (SuprsendCoreIOSSSApi *)getInstanceApiKey:(NSString *)apiKey apiSecret:(NSString *)apiSecret apiBaseUrl:(NSString * _Nullable)apiBaseUrl mutationHandler:(id<SuprsendCoreMutationHandler>)mutationHandler __attribute__((swift_name("getInstance(apiKey:apiSecret:apiBaseUrl:mutationHandler:)")));
-- (SuprsendCoreIOSSSApi * _Nullable)getInstanceFromCachedApiKeyMutationHandler:(id<SuprsendCoreMutationHandler>)mutationHandler __attribute__((swift_name("getInstanceFromCachedApiKey(mutationHandler:)")));
+
+/**
+ @note This method converts instances of Exception to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (SuprsendCoreIOSSSApi * _Nullable)getInstanceApiKey:(NSString *)apiKey apiSecret:(NSString *)apiSecret apiBaseUrl:(NSString * _Nullable)apiBaseUrl mutationHandler:(id<SuprsendCoreMutationHandler>)mutationHandler error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("getInstance(apiKey:apiSecret:apiBaseUrl:mutationHandler:)")));
+
+/**
+ @note This method converts instances of Exception to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (SuprsendCoreIOSSSApi * _Nullable)getInstanceFromCachedApiKeyMutationHandler:(id<SuprsendCoreMutationHandler>)mutationHandler error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("getInstanceFromCachedApiKey(mutationHandler:)"))) __attribute__((swift_error(nonnull_error)));
 - (void)initialize __attribute__((swift_name("initialize()")));
 @end;
 
@@ -512,6 +522,12 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SSApiInternalKt")))
+@interface SuprsendCoreSSApiInternalKt : SuprsendCoreBase
+@property (class, readonly) NSString *TAG_EXCEPTION __attribute__((swift_name("TAG_EXCEPTION")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinExtensionKt")))
 @interface SuprsendCoreKotlinExtensionKt : SuprsendCoreBase
 + (NSString *)getRandomStringLength:(int32_t)length __attribute__((swift_name("getRandomString(length:)")));
@@ -585,6 +601,30 @@ __attribute__((swift_name("RuntimeTransactionWithReturn")))
 - (id _Nullable)transactionBody_:(id _Nullable (^)(id<SuprsendCoreRuntimeTransactionWithReturn>))body __attribute__((swift_name("transaction(body_:)")));
 @end;
 
+__attribute__((swift_name("KotlinThrowable")))
+@interface SuprsendCoreKotlinThrowable : SuprsendCoreBase
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (SuprsendCoreKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SuprsendCoreKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+- (NSError *)asError __attribute__((swift_name("asError()")));
+@end;
+
+__attribute__((swift_name("KotlinException")))
+@interface SuprsendCoreKotlinException : SuprsendCoreKotlinThrowable
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
 __attribute__((swift_name("RuntimeCloseable")))
 @protocol SuprsendCoreRuntimeCloseable
 @required
@@ -646,30 +686,6 @@ __attribute__((swift_name("KotlinArray")))
 - (id<SuprsendCoreKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
-@end;
-
-__attribute__((swift_name("KotlinThrowable")))
-@interface SuprsendCoreKotlinThrowable : SuprsendCoreBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (SuprsendCoreKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
-- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SuprsendCoreKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
-@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
-- (NSError *)asError __attribute__((swift_name("asError()")));
-@end;
-
-__attribute__((swift_name("KotlinException")))
-@interface SuprsendCoreKotlinException : SuprsendCoreKotlinThrowable
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(SuprsendCoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((swift_name("KotlinRuntimeException")))
