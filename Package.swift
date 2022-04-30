@@ -13,12 +13,12 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-         .package(url: "https://github.com/surajshindalkar/sharedPackage.git", from: "1.0.0"),
+         //.package(url: "https://github.com/surajshindalkar/sharedPackage.git", from: "1.0.0"),
     ],
     targets: [
         .binaryTarget(
              name: "SuprSendSdk",
-             url: "https://github.com/suprsend/SuprSend-iOS-SDK/releases/download/1.0.0/SuprSendSdk.xcframework.zip",
+             url: "https://github.com/suprsend/SuprSend-iOS-XCFramework/releases/download/1.0.0/SuprSendSdk.xcframework.zip",
              checksum: "fd31f6c0a6cca304e1bb4f2172932d6fcb24277c031c42494d60f05dbe4275ea"
            ),
     ]
