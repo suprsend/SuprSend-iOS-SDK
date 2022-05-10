@@ -289,9 +289,11 @@ __attribute__((swift_name("SSUserApi")))
 @interface SuprsendCoreSSUserApi : SuprsendCoreBase
 - (instancetype)initWithMutationHandler:(id<SuprsendCoreMutationHandler>)mutationHandler __attribute__((swift_name("init(mutationHandler:)"))) __attribute__((objc_designated_initializer));
 - (void)appendKey:(NSString *)key value:(id)value __attribute__((swift_name("append(key:value:)")));
+- (void)appendProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("append(properties:)")));
 - (void)incrementKey:(NSString *)key value:(id)value __attribute__((swift_name("increment(key:value:)")));
 - (void)incrementProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("increment(properties:)")));
 - (void)removeKey:(NSString *)key value:(id)value __attribute__((swift_name("remove(key:value:)")));
+- (void)removeProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("remove(properties:)")));
 - (void)setKey:(NSString *)key value:(id)value __attribute__((swift_name("set(key:value:)")));
 - (void)setProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("set(properties:)")));
 - (void)setEmailEmail:(NSString *)email __attribute__((swift_name("setEmail(email:)")));
