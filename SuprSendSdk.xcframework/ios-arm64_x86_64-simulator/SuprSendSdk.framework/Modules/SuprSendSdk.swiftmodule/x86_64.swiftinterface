@@ -6,6 +6,7 @@ import NotificationCenter
 @_exported import SuprSendSdk
 import SuprsendCore
 import Swift
+import SystemConfiguration
 import UIKit
 import _Concurrency
 @objc extension SuprSendSdk.SuprSend {
@@ -17,6 +18,8 @@ import _Concurrency
   @objc dynamic public func increment(key: Swift.String, value: Swift.Float)
   @objc dynamic public func increment(properties: [Swift.String : Swift.Float])
   @objc dynamic public func append(key: Swift.String, value: Any)
+  @objc dynamic public func append(properties: [Swift.String : Any])
+  @objc dynamic public func remove(properties: [Swift.String : Any])
   @objc dynamic public func remove(key: Swift.String, value: Any)
   @objc dynamic public func unSet(key: Swift.String)
   @objc dynamic public func unSet(keys: [Swift.String])
@@ -46,7 +49,7 @@ import _Concurrency
   @objc dynamic public func setPushNotificationToken(token: Swift.String)
   @objc dynamic public func unSetPushNotificationToken(token: Swift.String)
   @objc dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse)
-  @objc dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification)
+  @objc dynamic public func application(_ application: UIKit.UIApplication, didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any])
   @objc dynamic public func registerForPushNotifications()
   @objc dynamic public func trackNotificationDidLaunchAppEvent(id: Swift.String)
 }
@@ -60,3 +63,90 @@ import _Concurrency
 @objc extension UserNotifications.UNNotification {
   @objc dynamic public func isSuperSendNotification() -> Swift.Bool
 }
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+extension Foundation.NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (SuprSendSdk.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (SuprSendSdk.Reachability) -> Swift.Void
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: SuprSendSdk.Reachability.NetworkStatus, b: SuprSendSdk.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    @available(*, deprecated, renamed: "unavailable")
+    public static let none: SuprSendSdk.Reachability.Connection
+    public static func == (a: SuprSendSdk.Reachability.Connection, b: SuprSendSdk.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: SuprSendSdk.Reachability.NetworkReachable?
+  public var whenUnreachable: SuprSendSdk.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: SuprSendSdk.Reachability.Connection {
+    get
+  }
+  public var connection: SuprSendSdk.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension SuprSendSdk.Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@available(*, unavailable, renamed: "Connection")
+extension SuprSendSdk.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension SuprSendSdk.Reachability.NetworkStatus : Swift.Hashable {}
+extension SuprSendSdk.Reachability.Connection : Swift.Equatable {}
+extension SuprSendSdk.Reachability.Connection : Swift.Hashable {}

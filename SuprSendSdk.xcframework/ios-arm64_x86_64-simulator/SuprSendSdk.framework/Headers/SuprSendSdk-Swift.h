@@ -225,13 +225,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 @class NSString;
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
-@class UNNotification;
+@class UIApplication;
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)setPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)unSetPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification;
+- (void)application:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
 - (void)registerForPushNotifications;
 - (void)trackNotificationDidLaunchAppEventWithId:(NSString * _Nonnull)id;
 @end
@@ -247,6 +247,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)incrementWithKey:(NSString * _Nonnull)key value:(float)value;
 - (void)incrementWithProperties:(NSDictionary<NSString *, NSNumber *> * _Nonnull)properties;
 - (void)appendWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
+- (void)appendWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
+- (void)removeWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)removeWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)unSetWithKey:(NSString * _Nonnull)key;
 - (void)unSetWithKeys:(NSArray<NSString *> * _Nonnull)keys;
@@ -516,13 +518,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 @class NSString;
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
-@class UNNotification;
+@class UIApplication;
 
 @interface SuprSend (SWIFT_EXTENSION(SuprSendSdk))
 - (void)setPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)unSetPushNotificationTokenWithToken:(NSString * _Nonnull)token;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification;
+- (void)application:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
 - (void)registerForPushNotifications;
 - (void)trackNotificationDidLaunchAppEventWithId:(NSString * _Nonnull)id;
 @end
@@ -538,6 +540,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)incrementWithKey:(NSString * _Nonnull)key value:(float)value;
 - (void)incrementWithProperties:(NSDictionary<NSString *, NSNumber *> * _Nonnull)properties;
 - (void)appendWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
+- (void)appendWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
+- (void)removeWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)removeWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)unSetWithKey:(NSString * _Nonnull)key;
 - (void)unSetWithKeys:(NSArray<NSString *> * _Nonnull)keys;
