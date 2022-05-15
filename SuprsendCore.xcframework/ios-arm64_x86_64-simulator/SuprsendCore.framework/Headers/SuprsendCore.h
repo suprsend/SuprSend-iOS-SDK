@@ -406,6 +406,7 @@ __attribute__((swift_name("NetworkType")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) SuprsendCoreNetworkType *wifi __attribute__((swift_name("wifi")));
+@property (class, readonly) SuprsendCoreNetworkType *cellular __attribute__((swift_name("cellular")));
 @property (class, readonly) SuprsendCoreNetworkType *g2 __attribute__((swift_name("g2")));
 @property (class, readonly) SuprsendCoreNetworkType *g3 __attribute__((swift_name("g3")));
 @property (class, readonly) SuprsendCoreNetworkType *g4 __attribute__((swift_name("g4")));
