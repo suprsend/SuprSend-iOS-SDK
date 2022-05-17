@@ -6,6 +6,7 @@ import NotificationCenter
 @_exported import SuprSendSdk
 import SuprsendCore
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
