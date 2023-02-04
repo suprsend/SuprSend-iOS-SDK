@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SuprsendCore"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "Core framework for SuprSend iOS Sdk"
   spec.description  = "This is a core framework for SuprSend iOS SDK"
   spec.homepage     = "https://github.com/suprsend/SuprSend-iOS-SDK"
