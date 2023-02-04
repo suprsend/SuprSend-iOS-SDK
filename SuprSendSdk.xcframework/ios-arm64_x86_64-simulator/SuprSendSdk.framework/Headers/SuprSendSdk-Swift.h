@@ -258,7 +258,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)setSuperPropertyWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)setSuperPropertiesWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)unSetSuperPropertyWithKey:(NSString * _Nonnull)key;
-- (void)reset;
+- (void)resetWithUnsubscribeNotification:(BOOL)unsubscribeNotification;
 - (void)setEmailWithEmailId:(NSString * _Nonnull)emailId;
 - (void)unSetEmailWithEmailId:(NSString * _Nonnull)emailId;
 - (void)setSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
@@ -551,7 +551,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SuprSend * _
 - (void)setSuperPropertyWithKey:(NSString * _Nonnull)key value:(id _Nonnull)value;
 - (void)setSuperPropertiesWithProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)unSetSuperPropertyWithKey:(NSString * _Nonnull)key;
-- (void)reset;
+- (void)resetWithUnsubscribeNotification:(BOOL)unsubscribeNotification;
 - (void)setEmailWithEmailId:(NSString * _Nonnull)emailId;
 - (void)unSetEmailWithEmailId:(NSString * _Nonnull)emailId;
 - (void)setSmsWithMobileNumber:(NSString * _Nonnull)mobileNumber;
