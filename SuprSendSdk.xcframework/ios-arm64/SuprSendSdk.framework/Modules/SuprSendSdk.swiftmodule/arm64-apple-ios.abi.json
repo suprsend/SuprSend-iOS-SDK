@@ -1,0 +1,3861 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SuprsendCore",
+        "printedName": "SuprsendCore",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SuprsendCore",
+        "printedName": "SuprsendCore",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuprSend",
+        "printedName": "SuprSend",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSend",
+                "printedName": "SuprSendSdk.SuprSend",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(cpy)shared",
+            "mangledName": "$s11SuprSendSdk0aB0C6sharedACvpZ",
+            "moduleName": "SuprSendSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuprSend",
+                    "printedName": "SuprSendSdk.SuprSend",
+                    "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(cm)shared",
+                "mangledName": "$s11SuprSendSdk0aB0C6sharedACvgZ",
+                "moduleName": "SuprSendSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configureWith",
+            "printedName": "configureWith(configuration:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSendSDKConfiguration",
+                "printedName": "SuprSendSdk.SuprSendSDKConfiguration",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(im)configureWithConfiguration:launchOptions:",
+            "mangledName": "$s11SuprSendSdk0aB0C13configureWith13configuration13launchOptionsyAA0aB16SDKConfigurationC_SDySo019UIApplicationLaunchH3KeyaypGSgtF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "configureWithConfiguration:launchOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableLogging",
+            "printedName": "enableLogging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(im)enableLogging",
+            "mangledName": "$s11SuprSendSdk0aB0C13enableLoggingyyF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSend",
+                "printedName": "SuprSendSdk.SuprSend",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(im)init",
+            "mangledName": "$s11SuprSendSdk0aB0CACycfc",
+            "moduleName": "SuprSendSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(identity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)identifyWithIdentity:",
+            "mangledName": "$s11SuprSendSdk0aB0C8identify8identityySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "identifyWithIdentity:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)trackWithEventName:",
+            "mangledName": "$s11SuprSendSdk0aB0C5track9eventNameySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "trackWithEventName:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(eventName:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)trackWithEventName:properties:",
+            "mangledName": "$s11SuprSendSdk0aB0C5track9eventName10propertiesySS_SDySSypGtF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "trackWithEventName:properties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C3set3key5valueySS_SStF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C3set10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "increment",
+            "printedName": "increment(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)incrementWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C9increment3key5valueySS_SftF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "incrementWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "increment",
+            "printedName": "increment(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)incrementWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C9increment10propertiesySDySSSfG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "incrementWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)appendWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C6append3key5valueySS_yptF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "appendWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)appendWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C6append10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "appendWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)removeWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C6remove10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "removeWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)removeWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C6remove3key5valueySS_yptF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "removeWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSet",
+            "printedName": "unSet(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetWithKey:",
+            "mangledName": "$s11SuprSendSdk0aB0C5unSet3keyySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetWithKey:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSet",
+            "printedName": "unSet(keys:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetWithKeys:",
+            "mangledName": "$s11SuprSendSdk0aB0C5unSet4keysySaySSG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetWithKeys:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "purchaseMade",
+            "printedName": "purchaseMade(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)purchaseMadeWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C12purchaseMade10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "purchaseMadeWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setOnce",
+            "printedName": "setOnce(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setOnceWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C7setOnce10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setOnceWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setOnce",
+            "printedName": "setOnce(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setOnceWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C7setOnce3key5valueySS_yptF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setOnceWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuperProperty",
+            "printedName": "setSuperProperty(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setSuperPropertyWithKey:value:",
+            "mangledName": "$s11SuprSendSdk0aB0C16setSuperProperty3key5valueySS_yptF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setSuperPropertyWithKey:value:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuperProperties",
+            "printedName": "setSuperProperties(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setSuperPropertiesWithProperties:",
+            "mangledName": "$s11SuprSendSdk0aB0C18setSuperProperties10propertiesySDySSypG_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setSuperPropertiesWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSetSuperProperty",
+            "printedName": "unSetSuperProperty(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetSuperPropertyWithKey:",
+            "mangledName": "$s11SuprSendSdk0aB0C18unSetSuperProperty3keyySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetSuperPropertyWithKey:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)reset",
+            "mangledName": "$s11SuprSendSdk0aB0C5resetyyF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEmail",
+            "printedName": "setEmail(emailId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setEmailWithEmailId:",
+            "mangledName": "$s11SuprSendSdk0aB0C8setEmail7emailIdySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setEmailWithEmailId:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSetEmail",
+            "printedName": "unSetEmail(emailId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetEmailWithEmailId:",
+            "mangledName": "$s11SuprSendSdk0aB0C10unSetEmail7emailIdySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetEmailWithEmailId:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSms",
+            "printedName": "setSms(mobileNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setSmsWithMobileNumber:",
+            "mangledName": "$s11SuprSendSdk0aB0C6setSms12mobileNumberySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setSmsWithMobileNumber:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSetSms",
+            "printedName": "unSetSms(mobileNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetSmsWithMobileNumber:",
+            "mangledName": "$s11SuprSendSdk0aB0C8unSetSms12mobileNumberySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetSmsWithMobileNumber:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWhatsApp",
+            "printedName": "setWhatsApp(mobileNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setWhatsAppWithMobileNumber:",
+            "mangledName": "$s11SuprSendSdk0aB0C11setWhatsApp12mobileNumberySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setWhatsAppWithMobileNumber:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSetWhatsApp",
+            "printedName": "unSetWhatsApp(mobileNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetWhatsAppWithMobileNumber:",
+            "mangledName": "$s11SuprSendSdk0aB0C13unSetWhatsApp12mobileNumberySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetWhatsAppWithMobileNumber:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)flush",
+            "mangledName": "$s11SuprSendSdk0aB0C5flushyyF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushNotificationToken",
+            "printedName": "setPushNotificationToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)setPushNotificationTokenWithToken:",
+            "mangledName": "$s11SuprSendSdk0aB0C24setPushNotificationToken5tokenySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "setPushNotificationTokenWithToken:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unSetPushNotificationToken",
+            "printedName": "unSetPushNotificationToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)unSetPushNotificationTokenWithToken:",
+            "mangledName": "$s11SuprSendSdk0aB0C26unSetPushNotificationToken5tokenySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "unSetPushNotificationTokenWithToken:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)userNotificationCenter:didReceive:",
+            "mangledName": "$s11SuprSendSdk0aB0C22userNotificationCenter_10didReceiveySo06UNUsereF0C_So22UNNotificationResponseCtF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didReceiveRemoteNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)application:didReceiveRemoteNotification:",
+            "mangledName": "$s11SuprSendSdk0aB0C11application_28didReceiveRemoteNotificationySo13UIApplicationC_SDys11AnyHashableVypGtF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForPushNotifications",
+            "printedName": "registerForPushNotifications(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)registerForPushNotificationsWithOptions:",
+            "mangledName": "$s11SuprSendSdk0aB0C28registerForPushNotifications7optionsySo22UNAuthorizationOptionsV_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "registerForPushNotificationsWithOptions:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNotificationDidLaunchAppEvent",
+            "printedName": "trackNotificationDidLaunchAppEvent(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)trackNotificationDidLaunchAppEventWithId:",
+            "mangledName": "$s11SuprSendSdk0aB0C34trackNotificationDidLaunchAppEvent2idySS_tF",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "trackNotificationDidLaunchAppEventWithId:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:withContentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)didReceive:withContentHandler:",
+            "mangledName": "$s11SuprSendSdk0aB0C10didReceive_18withContentHandlerySo21UNNotificationRequestC_ySo0iG0CctF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend",
+        "mangledName": "$s11SuprSendSdk0aB0C",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SuprsendCore",
+        "printedName": "SuprsendCore",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuprSendSDKConfiguration",
+        "printedName": "SuprSendSDKConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(withKey:secret:baseUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSendSDKConfiguration",
+                "printedName": "SuprSendSdk.SuprSendSDKConfiguration",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration(im)initWithKey:secret:baseUrl:",
+            "mangledName": "$s11SuprSendSdk0aB16SDKConfigurationC7withKey6secret7baseUrlACSS_S2SSgtcfc",
+            "moduleName": "SuprSendSdk",
+            "objc_name": "initWithKey:secret:baseUrl:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSendSDKConfiguration",
+                "printedName": "SuprSendSdk.SuprSendSDKConfiguration",
+                "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration(im)init",
+            "mangledName": "$s11SuprSendSdk0aB16SDKConfigurationCACycfc",
+            "moduleName": "SuprSendSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SuprSendSdk@objc(cs)SuprSendSDKConfiguration",
+        "mangledName": "$s11SuprSendSdk0aB16SDKConfigurationC",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationCenter",
+        "printedName": "NotificationCenter",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReachabilityError",
+        "printedName": "ReachabilityError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToCreateWithAddress",
+            "printedName": "failedToCreateWithAddress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SuprSendSdk.ReachabilityError.Type) -> (Darwin.sockaddr, Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Darwin.sockaddr, Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Darwin.sockaddr, Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "sockaddr",
+                            "printedName": "Darwin.sockaddr",
+                            "usr": "c:@S@sockaddr"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SuprSendSdk.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SuprSendSdk17ReachabilityErrorO25failedToCreateWithAddressyACSo8sockaddrV_s5Int32VtcACmF",
+            "mangledName": "$s11SuprSendSdk17ReachabilityErrorO25failedToCreateWithAddressyACSo8sockaddrV_s5Int32VtcACmF",
+            "moduleName": "SuprSendSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToCreateWithHostname",
+            "printedName": "failedToCreateWithHostname",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SuprSendSdk.ReachabilityError.Type) -> (Swift.String, Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SuprSendSdk.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SuprSendSdk17ReachabilityErrorO26failedToCreateWithHostnameyACSS_s5Int32VtcACmF",
+            "mangledName": "$s11SuprSendSdk17ReachabilityErrorO26failedToCreateWithHostnameyACSS_s5Int32VtcACmF",
+            "moduleName": "SuprSendSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSetCallback",
+            "printedName": "unableToSetCallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SuprSendSdk.ReachabilityError.Type) -> (Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SuprSendSdk.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SuprSendSdk17ReachabilityErrorO19unableToSetCallbackyACs5Int32VcACmF",
+            "mangledName": "$s11SuprSendSdk17ReachabilityErrorO19unableToSetCallbackyACs5Int32VcACmF",
+            "moduleName": "SuprSendSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSetDispatchQueue",
+            "printedName": "unableToSetDispatchQueue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SuprSendSdk.ReachabilityError.Type) -> (Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SuprSendSdk.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SuprSendSdk17ReachabilityErrorO24unableToSetDispatchQueueyACs5Int32VcACmF",
+            "mangledName": "$s11SuprSendSdk17ReachabilityErrorO24unableToSetDispatchQueueyACs5Int32VcACmF",
+            "moduleName": "SuprSendSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToGetFlags",
+            "printedName": "unableToGetFlags",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SuprSendSdk.ReachabilityError.Type) -> (Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> SuprSendSdk.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SuprSendSdk.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "SuprSendSdk.ReachabilityError",
+                        "usr": "s:11SuprSendSdk17ReachabilityErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SuprSendSdk17ReachabilityErrorO16unableToGetFlagsyACs5Int32VcACmF",
+            "mangledName": "$s11SuprSendSdk17ReachabilityErrorO16unableToGetFlagsyACs5Int32VcACmF",
+            "moduleName": "SuprSendSdk"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SuprSendSdk17ReachabilityErrorO",
+        "mangledName": "$s11SuprSendSdk17ReachabilityErrorO",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Reachability",
+        "printedName": "Reachability",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Connection",
+            "printedName": "Connection",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unavailable",
+                "printedName": "unavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SuprSendSdk.Reachability.Connection.Type) -> SuprSendSdk.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "SuprSendSdk.Reachability.Connection",
+                        "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SuprSendSdk.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "SuprSendSdk.Reachability.Connection",
+                            "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO11unavailableyA2EmF",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO11unavailableyA2EmF",
+                "moduleName": "SuprSendSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "wifi",
+                "printedName": "wifi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SuprSendSdk.Reachability.Connection.Type) -> SuprSendSdk.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "SuprSendSdk.Reachability.Connection",
+                        "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SuprSendSdk.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "SuprSendSdk.Reachability.Connection",
+                            "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO4wifiyA2EmF",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO4wifiyA2EmF",
+                "moduleName": "SuprSendSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "cellular",
+                "printedName": "cellular",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SuprSendSdk.Reachability.Connection.Type) -> SuprSendSdk.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "SuprSendSdk.Reachability.Connection",
+                        "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SuprSendSdk.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "SuprSendSdk.Reachability.Connection",
+                            "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO8cellularyA2EmF",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO8cellularyA2EmF",
+                "moduleName": "SuprSendSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO11descriptionSSvp",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO11descriptionSSvp",
+                "moduleName": "SuprSendSdk",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO11descriptionSSvg",
+                    "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO11descriptionSSvg",
+                    "moduleName": "SuprSendSdk",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "SuprSendSdk.Reachability.Connection",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO4noneAEvpZ",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO4noneAEvpZ",
+                "moduleName": "SuprSendSdk",
+                "static": true,
+                "deprecated": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "Available"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "SuprSendSdk.Reachability.Connection",
+                        "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO4noneAEvgZ",
+                    "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO4noneAEvgZ",
+                    "moduleName": "SuprSendSdk",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "SuprSendSdk.Reachability.Connection",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "SuprSendSdk.Reachability.Connection",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO2eeoiySbAE_AEtFZ",
+                "moduleName": "SuprSendSdk",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO9hashValueSivp",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO9hashValueSivp",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO9hashValueSivg",
+                    "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO9hashValueSivg",
+                    "moduleName": "SuprSendSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO4hash4intoys6HasherVz_tF",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC10ConnectionO",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenReachable",
+            "printedName": "whenReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SuprSendSdk.Reachability) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reachability",
+                        "printedName": "SuprSendSdk.Reachability",
+                        "usr": "s:11SuprSendSdk12ReachabilityC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC13whenReachableyACcSgvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC13whenReachableyACcSgvp",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SuprSendSdk.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "SuprSendSdk.Reachability",
+                            "usr": "s:11SuprSendSdk12ReachabilityC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC13whenReachableyACcSgvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC13whenReachableyACcSgvg",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SuprSendSdk.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "SuprSendSdk.Reachability",
+                            "usr": "s:11SuprSendSdk12ReachabilityC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC13whenReachableyACcSgvs",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC13whenReachableyACcSgvs",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC13whenReachableyACcSgvM",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC13whenReachableyACcSgvM",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenUnreachable",
+            "printedName": "whenUnreachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SuprSendSdk.Reachability) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reachability",
+                        "printedName": "SuprSendSdk.Reachability",
+                        "usr": "s:11SuprSendSdk12ReachabilityC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvp",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SuprSendSdk.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "SuprSendSdk.Reachability",
+                            "usr": "s:11SuprSendSdk12ReachabilityC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvg",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SuprSendSdk.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SuprSendSdk.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "SuprSendSdk.Reachability",
+                            "usr": "s:11SuprSendSdk12ReachabilityC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvs",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvs",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvM",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC15whenUnreachableyACcSgvM",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reachableOnWWAN",
+            "printedName": "reachableOnWWAN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC15reachableOnWWANSbvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC15reachableOnWWANSbvp",
+            "moduleName": "SuprSendSdk",
+            "deprecated": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC15reachableOnWWANSbvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC15reachableOnWWANSbvg",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowsCellularConnection",
+            "printedName": "allowsCellularConnection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvp",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvg",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvs",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvs",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvM",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC24allowsCellularConnectionSbvM",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationCenter",
+            "printedName": "notificationCenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCenter",
+                "printedName": "Foundation.NotificationCenter",
+                "usr": "c:objc(cs)NSNotificationCenter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvp",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationCenter",
+                    "printedName": "Foundation.NotificationCenter",
+                    "usr": "c:objc(cs)NSNotificationCenter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvg",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationCenter",
+                    "printedName": "Foundation.NotificationCenter",
+                    "usr": "c:objc(cs)NSNotificationCenter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvs",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0Cvs",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0CvM",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC18notificationCenterSo014NSNotificationF0CvM",
+                "moduleName": "SuprSendSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentReachabilityString",
+            "printedName": "currentReachabilityString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC07currentD6StringSSvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC07currentD6StringSSvp",
+            "moduleName": "SuprSendSdk",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC07currentD6StringSSvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC07currentD6StringSSvg",
+                "moduleName": "SuprSendSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connection",
+            "printedName": "connection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Connection",
+                "printedName": "SuprSendSdk.Reachability.Connection",
+                "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC10connectionAC10ConnectionOvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC10connectionAC10ConnectionOvp",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "SuprSendSdk.Reachability.Connection",
+                    "usr": "s:11SuprSendSdk12ReachabilityC10ConnectionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC10connectionAC10ConnectionOvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC10connectionAC10ConnectionOvg",
+                "moduleName": "SuprSendSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(reachabilityRef:queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "SuprSendSdk.Reachability",
+                "usr": "s:11SuprSendSdk12ReachabilityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNetworkReachability",
+                "printedName": "SystemConfiguration.SCNetworkReachability",
+                "usr": "c:@T@SCNetworkReachabilityRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SuprSendSdk12ReachabilityC15reachabilityRef8queueQoS11targetQueue012notificationJ0ACSo09SCNetworkdF0a_8Dispatch0mH1SVSo012OS_dispatch_G0CSgAOtcfc",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC15reachabilityRef8queueQoS11targetQueue012notificationJ0ACSo09SCNetworkdF0a_8Dispatch0mH1SVSo012OS_dispatch_G0CSgAOtcfc",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hostname:queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "SuprSendSdk.Reachability",
+                "usr": "s:11SuprSendSdk12ReachabilityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SuprSendSdk12ReachabilityC8hostname8queueQoS11targetQueue012notificationI0ACSS_8Dispatch0kG1SVSo012OS_dispatch_F0CSgAMtKcfc",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC8hostname8queueQoS11targetQueue012notificationI0ACSS_8Dispatch0kG1SVSo012OS_dispatch_F0CSgAMtKcfc",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "SuprSendSdk.Reachability",
+                "usr": "s:11SuprSendSdk12ReachabilityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SuprSendSdk12ReachabilityC8queueQoS11targetQueue012notificationH0AC8Dispatch0jF1SV_So012OS_dispatch_E0CSgALtKcfc",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC8queueQoS11targetQueue012notificationH0AC8Dispatch0jF1SV_So012OS_dispatch_E0CSgALtKcfc",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "startNotifier",
+            "printedName": "startNotifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SuprSendSdk12ReachabilityC13startNotifieryyKF",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC13startNotifieryyKF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopNotifier",
+            "printedName": "stopNotifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SuprSendSdk12ReachabilityC12stopNotifieryyF",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC12stopNotifieryyF",
+            "moduleName": "SuprSendSdk",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isReachable",
+            "printedName": "isReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC11isReachableSbvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC11isReachableSbvp",
+            "moduleName": "SuprSendSdk",
+            "deprecated": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC11isReachableSbvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC11isReachableSbvg",
+                "moduleName": "SuprSendSdk",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableViaWWAN",
+            "printedName": "isReachableViaWWAN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC18isReachableViaWWANSbvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC18isReachableViaWWANSbvp",
+            "moduleName": "SuprSendSdk",
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC18isReachableViaWWANSbvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC18isReachableViaWWANSbvg",
+                "moduleName": "SuprSendSdk",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableViaWiFi",
+            "printedName": "isReachableViaWiFi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC18isReachableViaWiFiSbvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC18isReachableViaWiFiSbvp",
+            "moduleName": "SuprSendSdk",
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC18isReachableViaWiFiSbvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC18isReachableViaWiFiSbvg",
+                "moduleName": "SuprSendSdk",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SuprSendSdk12ReachabilityC11descriptionSSvp",
+            "mangledName": "$s11SuprSendSdk12ReachabilityC11descriptionSSvp",
+            "moduleName": "SuprSendSdk",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SuprSendSdk12ReachabilityC11descriptionSSvg",
+                "mangledName": "$s11SuprSendSdk12ReachabilityC11descriptionSSvg",
+                "moduleName": "SuprSendSdk",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11SuprSendSdk12ReachabilityC",
+        "mangledName": "$s11SuprSendSdk12ReachabilityC",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SuprSendSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNNotificationResponse",
+        "printedName": "UNNotificationResponse",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSuprSendNotification",
+            "printedName": "isSuprSendNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@@objc(cs)UNNotificationResponse(im)isSuprSendNotification",
+            "mangledName": "$sSo22UNNotificationResponseC11SuprSendSdkE02iscD12NotificationSbyF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UNNotificationResponse",
+        "moduleName": "UserNotifications",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "objc_name": "UNNotificationResponse",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNNotification",
+        "printedName": "UNNotification",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSuperSendNotification",
+            "printedName": "isSuperSendNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SuprSendSdk@@objc(cs)UNNotification(im)isSuperSendNotification",
+            "mangledName": "$sSo14UNNotificationC11SuprSendSdkE07isSuperC12NotificationSbyF",
+            "moduleName": "SuprSendSdk",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UNNotification",
+        "moduleName": "UserNotifications",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "objc_name": "UNNotification",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "reachabilityChanged",
+            "printedName": "reachabilityChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea11SuprSendSdkE19reachabilityChangedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea11SuprSendSdkE19reachabilityChangedABvpZ",
+            "moduleName": "SuprSendSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea11SuprSendSdkE19reachabilityChangedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea11SuprSendSdkE19reachabilityChangedABvgZ",
+                "moduleName": "SuprSendSdk",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/mutation\/IosMutationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 5,
+      "value": "\"nid\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 25,
+      "value": "\"$notification_delivered\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 23,
+      "value": "\"$notification_clicked\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 23,
+      "value": "\"$notification_clicked\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 10,
+      "value": "\"$network\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 16,
+      "value": "\"ss_sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 12,
+      "value": "\"$connected\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 10,
+      "value": "\"cellular\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 6,
+      "value": "\"wifi\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/AnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 19,
+      "value": "\"global_action_url\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/SuprSendSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 24,
+      "value": "\"SuprSendSdk.SuprSendSDKConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 33,
+      "value": "\"ReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 21,
+      "value": "\"reachabilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3137,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 14,
+      "value": "\"via_suprsend\""
+    }
+  ]
+}

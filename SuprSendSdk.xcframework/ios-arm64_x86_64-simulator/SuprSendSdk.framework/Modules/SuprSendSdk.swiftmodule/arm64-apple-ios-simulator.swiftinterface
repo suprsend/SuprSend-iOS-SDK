@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SuprSendSdk
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SuprSendSdk
 import Foundation
 import NotificationCenter
 @_exported import SuprSendSdk
@@ -10,6 +10,8 @@ import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
 @objc extension SuprSendSdk.SuprSend {
   @objc dynamic public func identify(identity: Swift.String)
   @objc dynamic public func track(eventName: Swift.String)
@@ -30,7 +32,7 @@ import _Concurrency
   @objc dynamic public func setSuperProperty(key: Swift.String, value: Any)
   @objc dynamic public func setSuperProperties(properties: [Swift.String : Any])
   @objc dynamic public func unSetSuperProperty(key: Swift.String)
-  @objc dynamic public func reset(unsubscribeNotification: Swift.Bool)
+  @objc dynamic public func reset()
   @objc dynamic public func setEmail(emailId: Swift.String)
   @objc dynamic public func unSetEmail(emailId: Swift.String)
   @objc dynamic public func setSms(mobileNumber: Swift.String)
@@ -53,6 +55,7 @@ import _Concurrency
   @objc dynamic public func application(_ application: UIKit.UIApplication, didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any])
   @objc dynamic public func registerForPushNotifications(options: UserNotifications.UNAuthorizationOptions)
   @objc dynamic public func trackNotificationDidLaunchAppEvent(id: Swift.String)
+  @objc dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers @objc public class SuprSendSDKConfiguration : ObjectiveC.NSObject {
   @objc convenience public init(withKey key: Swift.String, secret: Swift.String, baseUrl: Swift.String? = nil)
