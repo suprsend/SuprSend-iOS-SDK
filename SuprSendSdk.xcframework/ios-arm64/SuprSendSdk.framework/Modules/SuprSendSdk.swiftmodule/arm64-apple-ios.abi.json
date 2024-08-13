@@ -946,18 +946,25 @@
           {
             "kind": "Function",
             "name": "reset",
-            "printedName": "reset()",
+            "printedName": "reset(unsubscribeNotification:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)reset",
-            "mangledName": "$s11SuprSendSdk0aB0C5resetyyF",
+            "usr": "c:@CM@SuprSendSdk@objc(cs)SuprSend(im)resetWithUnsubscribeNotification:",
+            "mangledName": "$s11SuprSendSdk0aB0C5reset23unsubscribeNotificationySb_tF",
             "moduleName": "SuprSendSdk",
+            "objc_name": "resetWithUnsubscribeNotification:",
             "declAttributes": [
               "Dynamic",
               "AccessControl",

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SuprSendSdk-Swift.h</key>
 		<data>
-		2cRBwVvtqPz2njB4AYGiAIaOcmI=
+		rk5D+B+G2/3BjBrPGd+ICydhDFk=
 		</data>
 		<key>Headers/SuprSendSdk.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WutYgM8MTVYpFtQMrHvDIK+h5rQ=
+		ViZ7Vwr3ymzHIYHGcO52Y9R7mq8=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HRRNd14Nb71clnZlAB8VDgNfKBk=
+		Juzpqa7B3dmzsJXE4F0vTRzTbFE=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HRRNd14Nb71clnZlAB8VDgNfKBk=
+		Juzpqa7B3dmzsJXE4F0vTRzTbFE=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t0GTJGmjC7iXKK5YLHNsXLfuWEc=
+		GBdbC8CnnRxQZRQaHll/DurLLfg=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WutYgM8MTVYpFtQMrHvDIK+h5rQ=
+		ViZ7Vwr3ymzHIYHGcO52Y9R7mq8=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EuWYl77ZU+57Ez3a6S7yfnFP6YI=
+		AAnKHADy/3DoDH7DwiZcDfjtbdo=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,19 +50,15 @@
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EuWYl77ZU+57Ez3a6S7yfnFP6YI=
+		AAnKHADy/3DoDH7DwiZcDfjtbdo=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0wKC7DzSnXuLEJi27H9zCU9fDJs=
+		ZhO8h1O68XrKcmEzjUd7pQ+5M3U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qqyI9hKaImNX4n4PSBVXMMRMazc=
-		</data>
-		<key>build-xcframework.sh</key>
-		<data>
-		OH1qbFlpRvNp47pSnBW7QRjn8oI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mlJS3cX7AAs9WyKqwv4lvKSzjlGYNQk8oq2LSp+Yrww=
+			tJDqNA2nCVHmKuon/0mjQQvy1/zumr7XDtjdVYb6YFc=
 			</data>
 		</dict>
 		<key>Headers/SuprSendSdk.h</key>
@@ -85,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJd3rDPq1oPR+PQ+RR0LnSGkCXJvjQaNi2bV8hNbnXU=
+			aP495uKKnIvP/Ce5S+ooE/H9b4P/UJyU61m0DEPNCVg=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNyVMYBHvH5POi7RNyJfDVzkQ0nt7g/Ixl0TDDYV6l4=
+			ZGs47Uqs3wPfHs9p9rnSD740SIRg7Unx91ZaSEH2y80=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNyVMYBHvH5POi7RNyJfDVzkQ0nt7g/Ixl0TDDYV6l4=
+			ZGs47Uqs3wPfHs9p9rnSD740SIRg7Unx91ZaSEH2y80=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoD/PHl4NDwenbaUbXg8SMgi2ZYs1wTXhgkLRQNB1RU=
+			+kM1pIHLs39BIkFqNBsFm1yasWof/NfjElG3KHv3tVw=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJd3rDPq1oPR+PQ+RR0LnSGkCXJvjQaNi2bV8hNbnXU=
+			aP495uKKnIvP/Ce5S+ooE/H9b4P/UJyU61m0DEPNCVg=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MsizzQ0gXkDU209Db//jMezEmo+66U7F6NXy4Q/aR8c=
+			nxXgYYYtR7g0m4l8PiCUV7C9ZlWjXkCyZX9gDJpfvyI=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MsizzQ0gXkDU209Db//jMezEmo+66U7F6NXy4Q/aR8c=
+			nxXgYYYtR7g0m4l8PiCUV7C9ZlWjXkCyZX9gDJpfvyI=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeRVCsRV2kZrtDB8Zps9ImQWu9ulBvnBvhZhqrA55KI=
+			c2Ubx7+4j29U8V8ltKStGueha8VLFUY5kGyzfxe/CyU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -156,13 +152,6 @@
 			<key>hash2</key>
 			<data>
 			fjXOZh2KvloYIFOSqmARwLIP1LVEyhHe3B6j9FOm7W4=
-			</data>
-		</dict>
-		<key>build-xcframework.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WIaZmOmYIsk9RLd8u3Yk2KPn2Z9qP0kOWGer5oLYT2c=
 			</data>
 		</dict>
 	</dict>
