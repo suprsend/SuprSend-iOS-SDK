@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SuprSendSdk-Swift.h</key>
 		<data>
-		ruul17Cc4H/qY6rZC0tOLGD8hvc=
+		rk5D+B+G2/3BjBrPGd+ICydhDFk=
 		</data>
 		<key>Headers/SuprSendSdk.h</key>
 		<data>
@@ -14,59 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZkWrkJXTdm0xBFNWQXSsUoB6/G0=
+		+ls7SS/AnZLaKrNe8WI+73jMo0s=
+		</data>
+		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		ViZ7Vwr3ymzHIYHGcO52Y9R7mq8=
+		</data>
+		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Juzpqa7B3dmzsJXE4F0vTRzTbFE=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jwCzB8jR/nKgZh1Qw8mXXhRyck4=
+		8QyxIfLW5Af69W40Lfalu4IkOmk=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ff0K2HqamwU0lFjH8rUF6+O9bQk=
+		Juzpqa7B3dmzsJXE4F0vTRzTbFE=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZFpJ+iPuit+pwypGHVjQLJD5BKg=
+		GBdbC8CnnRxQZRQaHll/DurLLfg=
 		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jwCzB8jR/nKgZh1Qw8mXXhRyck4=
+		ViZ7Vwr3ymzHIYHGcO52Y9R7mq8=
 		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ff0K2HqamwU0lFjH8rUF6+O9bQk=
-		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		ZFpJ+iPuit+pwypGHVjQLJD5BKg=
+		AAnKHADy/3DoDH7DwiZcDfjtbdo=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f352BibGazAzV4iIxBpt3+jfnNE=
+		+bV7TfjGWQtJFrhIttLiC0aJQ9A=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zoOgLppK6cRx9ef9+6l/GCHRlj4=
+		AAnKHADy/3DoDH7DwiZcDfjtbdo=
 		</data>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pdgYRBrAOMbuhQY71jOT9IKD9tk=
-		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		f352BibGazAzV4iIxBpt3+jfnNE=
-		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		zoOgLppK6cRx9ef9+6l/GCHRlj4=
-		</data>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		pdgYRBrAOMbuhQY71jOT9IKD9tk=
+		ZhO8h1O68XrKcmEzjUd7pQ+5M3U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		wklx+3wYZB5HrYuJMgr/xFkiZLI=
+		qqyI9hKaImNX4n4PSBVXMMRMazc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FiiByJBnh3y2ZuuZexi6bfktzcZzBCy6PndmXll0+LI=
+			tJDqNA2nCVHmKuon/0mjQQvy1/zumr7XDtjdVYb6YFc=
 			</data>
 		</dict>
 		<key>Headers/SuprSendSdk.h</key>
@@ -85,95 +77,81 @@
 			r+FCs+aFbCIwKy6/hKERFvOeOffeMqcgohG/sM0ndoo=
 			</data>
 		</dict>
+		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aP495uKKnIvP/Ce5S+ooE/H9b4P/UJyU61m0DEPNCVg=
+			</data>
+		</dict>
+		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZGs47Uqs3wPfHs9p9rnSD740SIRg7Unx91ZaSEH2y80=
+			</data>
+		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6Cn0gJmiYYhl4K/NLvxSBCP8gRNVbRiTjox5HVrvTE=
+			vgtOvRK4HPDECu6MxvPUIgQvot589rUG58lmvWUEA0E=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oi5IEWSYFx+nVrme616TN+2WoLaZz24up5iynfdJ6UE=
+			ZGs47Uqs3wPfHs9p9rnSD740SIRg7Unx91ZaSEH2y80=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2v0wa7qRefJO/y3gANbySfpjdIlHSrpKgKO79Z6aKc4=
+			+kM1pIHLs39BIkFqNBsFm1yasWof/NfjElG3KHv3tVw=
 			</data>
 		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6Cn0gJmiYYhl4K/NLvxSBCP8gRNVbRiTjox5HVrvTE=
+			aP495uKKnIvP/Ce5S+ooE/H9b4P/UJyU61m0DEPNCVg=
 			</data>
 		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oi5IEWSYFx+nVrme616TN+2WoLaZz24up5iynfdJ6UE=
-			</data>
-		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2v0wa7qRefJO/y3gANbySfpjdIlHSrpKgKO79Z6aKc4=
+			nxXgYYYtR7g0m4l8PiCUV7C9ZlWjXkCyZX9gDJpfvyI=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLk71arLhBMmGjXo7BWYtmrt5s+CMO7BLW9JiSIOzdU=
+			JmPkcFZHPlU3uYO/Su6tKS6qedajog4xfHoa3WBEF+M=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeSc0RFSx7AtVboOEr0imQ9sW5fBD+Xj6vQtGovLcHc=
+			nxXgYYYtR7g0m4l8PiCUV7C9ZlWjXkCyZX9gDJpfvyI=
 			</data>
 		</dict>
 		<key>Modules/SuprSendSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ReYXfMU2A7Nk+3G8Fkm7FlZipxsxWi8sFwaxgTL59Tw=
-			</data>
-		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JLk71arLhBMmGjXo7BWYtmrt5s+CMO7BLW9JiSIOzdU=
-			</data>
-		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NeSc0RFSx7AtVboOEr0imQ9sW5fBD+Xj6vQtGovLcHc=
-			</data>
-		</dict>
-		<key>Modules/SuprSendSdk.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ReYXfMU2A7Nk+3G8Fkm7FlZipxsxWi8sFwaxgTL59Tw=
+			c2Ubx7+4j29U8V8ltKStGueha8VLFUY5kGyzfxe/CyU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VfAtuxFrvMVlfjWZvqDlleN//7Bwkq8yCU3G5oeLvLQ=
+			fjXOZh2KvloYIFOSqmARwLIP1LVEyhHe3B6j9FOm7W4=
 			</data>
 		</dict>
 	</dict>
