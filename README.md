@@ -1,3 +1,7 @@
+# ⚠️ DEPRECATION WARNING
+
+**This SDK is deprecated. Please use the [suprsend-swift-sdk](https://github.com/suprsend/suprsend-swift-sdk) instead. Documentation for this repo can be found inside [documentation](https://github.com/suprsend/SuprSend-iOS-SDK/blob/main/documentation) folder**
+
 # SupersendCorePosdspecRepository
 This repository is used for hosting 
 1. podspec for both SuprsendCore and SuprSendSdk
