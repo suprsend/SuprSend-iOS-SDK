@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SuprSendSdk",
+    "printedName": "SuprSendSdk",
     "children": [
       {
         "kind": "Import",
@@ -61,6 +61,70 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "SuprSendSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuprSendDeepLinkDelegate",
+        "printedName": "SuprSendDeepLinkDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shouldHandleSuprSendDeepLink",
+            "printedName": "shouldHandleSuprSendDeepLink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SuprSendSdk@objc(pl)SuprSendDeepLinkDelegate(im)shouldHandleSuprSendDeepLink:",
+            "mangledName": "$s11SuprSendSdk0aB16DeepLinkDelegateP012shouldHandleabdE0ySb10Foundation3URLVF",
+            "moduleName": "SuprSendSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SuprSendSdk.SuprSendDeepLinkDelegate>",
+            "sugared_genericSig": "<Self where Self : SuprSendSdk.SuprSendDeepLinkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SuprSendSdk@objc(pl)SuprSendDeepLinkDelegate",
+        "mangledName": "$s11SuprSendSdk0aB16DeepLinkDelegateP",
+        "moduleName": "SuprSendSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -169,6 +233,33 @@
             "mangledName": "$s11SuprSendSdk0aB0C13configureWith13configuration13launchOptionsyAA0aB16SDKConfigurationC_SDySo019UIApplicationLaunchH3KeyaypGSgtF",
             "moduleName": "SuprSendSdk",
             "objc_name": "configureWithConfiguration:launchOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeepLinkDelegate",
+            "printedName": "setDeepLinkDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SuprSendDeepLinkDelegate",
+                "printedName": "any SuprSendSdk.SuprSendDeepLinkDelegate",
+                "usr": "c:@M@SuprSendSdk@objc(pl)SuprSendDeepLinkDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SuprSendSdk@objc(cs)SuprSend(im)setDeepLinkDelegate:",
+            "mangledName": "$s11SuprSendSdk0aB0C19setDeepLinkDelegateyyAA0abefG0_pF",
+            "moduleName": "SuprSendSdk",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1438,6 +1529,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1635,6 +1740,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2012,6 +2131,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -2341,6 +2474,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -3369,6 +3516,22 @@
         "moduleName": "SuprSendSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3428,6 +3591,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3526,6 +3703,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3646,6 +3837,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -3814,13 +4019,6 @@
       "offset": 608,
       "length": 19,
       "value": "\"global_action_url\""
-    },
-    {
-      "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/SuprSendSDKConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 24,
-      "value": "\"SuprSendSdk.SuprSendSDKConfiguration\""
     },
     {
       "filePath": "\/Users\/ram\/suprsend-kmm-sdk\/iOSSDK\/SuprSendSdk\/Reachability.swift",
